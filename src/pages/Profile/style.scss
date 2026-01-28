@@ -1,0 +1,298 @@
+.profile {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: clamp(10px, 1.38vw, 20px);
+    // gap: 20px;
+    // height: 200px;
+    // background-size: cover;
+    // background-position: center;
+    // background-size: cover;
+
+    p,
+    h2 {
+        margin: 0px;
+    }
+
+
+    .div1 {
+        width: clamp(250px, 31.38vw, 452px);
+        // width: 452px;
+        height: 100vh;
+        background: #2d2f33;
+        border: 1px solid #424246;
+        border-radius: 28px;
+        padding: clamp(15px, 2.08vw, 30px) clamp(25px, 3.26vw, 47px);
+        // padding: 30px 47px;
+        // padding: 40px 47px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        // justify-content: center;
+        gap: 20px;
+        // gap: 30px;
+        // gap: 49px;
+
+        .inp1 {
+            width: clamp(188px, 23.68vw, 341px);
+            // width: 341px;
+            height: 54px;
+            color: #7E7C7C;
+            background: #C2D4D3;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+
+        .div1Div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: clamp(174px, 21.94vw, 316px);
+                // width: 316px;
+                height: clamp(140px, 13.88vw, 200px);
+                // height: 200px;
+            }
+
+            p {
+                // font-size: 96px;
+                font-size: clamp(24px, 2.77vw, 40px);
+                // font-size: 40px;
+            }
+
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 5px;
+                border-bottom: 1px solid;
+
+                p {
+                    font-size: clamp(17px, 1.73vw, 25px);
+                    // font-size: 25px;
+                }
+            }
+        }
+
+        .div1Div2 {
+            width: 100%;
+
+            div {
+                // min-width: 220px;
+                // min-width: 214px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    min-width: 200px;
+                    font-size: clamp(14px, 1.7vw, 17px);
+                    // font-size: 17px;
+                }
+            }
+        }
+
+        .div1Div3 {
+            width: clamp(188px, 23.68vw, 341px);
+            // height: 78px;
+            // max-height: 78px;
+            // min-height: 78px;
+            background: #252222;
+            padding: 20px 15px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            .div1Div3Div1,
+            .div1Div3Div2 {
+                // width: 100%;
+                // height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+
+                img {
+                    width: clamp(25px, 3.26vw, 47px);
+                    // width: 47px;
+                    height: clamp(25px, 3.26vw, 47px);
+                    // height: 47px;
+                }
+
+                div>h3 {
+                    font-size: clamp(16px, 1.66vw, 24px);
+                    // font-size: 24px;
+                    margin: 0px;
+                }
+
+                div>p {
+                    font-size: clamp(12px, 1.11vw, 16px);
+                }
+            }
+        }
+    }
+
+    // .div1>div {
+    //     color: #fff;
+    // }
+
+    .div2 {
+        width: 100%;
+        height: 100vh;
+        background: #2d2f33;
+        border: 1px solid #424246;
+        border-radius: 28px;
+        padding: 30px clamp(25px, 3.26vw, 47px);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .active {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            // gap: 20px;
+
+            .div2Div2 {
+                width: 700px;
+                // max-width: 100%;
+                padding: 10px 6px;
+                // padding: 15px 6px;
+                display: flex;
+                gap: 15px;
+                overflow: hidden;
+
+                .div2Div2Divs {
+                    width: 106px;
+                    height: 176px;
+                    background: #252222;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 12px;
+                    border: 1px solid #242324;
+
+                    p {
+                        margin: 0px;
+                    }
+                }
+            }
+
+            .div2Div3 {
+                display: flex;
+                gap: 20px;
+
+                .div2Div3Div1,
+                .div2Div3Div2,
+                .div2Div3Div3 {
+                    height: 180px;
+                    // height: 200px;
+                    // height: 221px;
+                    background: #252222;
+                    padding: 15px 20px;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    div {
+                        height: 100%;
+                        display: flex;
+                        gap: 10px;
+
+                        div {
+                            // height: 100%;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            // justify-content: space-around;
+                        }
+
+                        .div2Div3img {
+                            justify-content: end;
+                            // display: f;
+                            // border: 1px solid red;
+                        }
+                    }
+                }
+            }
+
+            .div2Div4 {
+                width: 700px;
+                // max-width: 100%;
+                // padding: 15px 6px;
+                display: flex;
+                gap: 20px;
+                overflow: hidden;
+
+                .div2Div4Div1 {
+                    display: flex;
+                    gap: 15px;
+
+                    .div2Div4DIv1Divs {
+                        width: 150px;
+                        height: 160px;
+                        // height: 176px;
+                        background: #252222;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 12px;
+                        border: 1px solid #242324;
+
+                        h2 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .div2Div4Div2 {
+                    padding: 15px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    div {
+                        padding: 0px 10px;
+                        // padding: 10px;
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        .sunrise,
+                        .sunrset {
+                            width: 48px;
+                            height: 48px;
+                        }
+
+                        div {
+                            flex-direction: column;
+                            gap: 0px;
+
+                            .div2Div4Div2DivP1 {
+                                color: #6A6969;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
